@@ -1,0 +1,71 @@
+.around{
+    @extend %body;
+}
+.contents{
+    @include flex;
+    margin-top: 40px;
+    column-gap: 90px;
+
+    .box{
+        position: relative;
+        font-size: 15px;
+        line-height: 1.8;
+        &::before{
+            content: url('../images/quote.svg');
+            // background: url('../images/quote.svg') no-repeat center center/cover;
+            width: 36px;
+            display: block;
+            position: absolute;
+            top:-18px;
+            left:-48px;
+            transform: scaleY(-1);
+        }
+        &:after{
+            content: url('../images/quote.svg');
+            width:36px;
+            display: block;
+            position: absolute;
+            transform: scaleX(-1);
+            right: 0;
+        }
+        h1{
+            font-family: 'Abril Fatface', cursive;
+            font-size: 38px;
+            margin-bottom: 16px;
+        }
+    }
+
+    .click{
+        width: 70px;
+        position: absolute;
+        right: 100px;bottom:0;
+    }
+
+    .pics{
+        width: 300px;
+    }
+}
+
+.resume_Container{
+    padding:120px 0;
+    text-align: center;
+    img{
+        width: 700px;
+    }
+}
+
+.logo_Container{
+    padding-bottom: 150px;
+
+    
+    .boxItems{
+        display: flex;
+        height:80px;
+        justify-content:space-evenly;
+
+         
+        
+    }
+}
+
+

@@ -1,0 +1,38 @@
+.plus{
+    position: fixed;
+    left:0;top:0;right:0;
+}
+.pageHeader{
+    padding: 16px 0;
+    
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    
+    .inner{
+        @extend %header;
+    }
+
+    .headerContainer{
+      
+        @include flex;
+        h1 a{
+            display: block;
+            height:49px;
+        }
+
+        .gnb{
+            ul{
+                @include flex;
+
+                li{
+                    font-weight: 600;
+                    font-size: 15px;
+                }
+                a{
+                    padding: 0  0 0 31px;
+                }
+            }
+            
+        }
+    }
+}

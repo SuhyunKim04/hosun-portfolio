@@ -1,0 +1,28 @@
+.pageFooter{
+    border-top: 1px solid #e5e7eb;
+    color: #909090;
+    h3{
+        text-align: center;
+        margin: 40px 0 20px;
+    }
+
+    .footerItems{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        li{
+            column-gap: 10px;
+            @include flex;
+            outline: solid 1px blue;
+            align-items: center;
+            a{
+                display: block;
+            }
+            img{
+                width: 25px;
+                vertical-align: middle;
+            }
+        }
+    }
+}

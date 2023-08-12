@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dt, dd, ol, ul, li, fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+em, i, address {
+  font-style: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+fieldset {
+  border: none;
+}
+
+.blind, legend {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.pageHeader .inner {
+  width: 100%;
+  max-width: 1560px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.around {
+  width: 100%;
+  max-width: 1480px;
+  padding: 0 140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.plus {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.pageHeader {
+  padding: 16px 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.pageHeader .headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pageHeader .headerContainer h1 a {
+  display: block;
+  height: 49px;
+}
+.pageHeader .headerContainer .gnb ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pageHeader .headerContainer .gnb ul li {
+  font-weight: 600;
+  font-size: 15px;
+}
+.pageHeader .headerContainer .gnb ul a {
+  padding: 0 0 0 31px;
+}
+
+.visual {
+  height: 100vh;
+}
+.visual img {
+  height: 100vh;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  column-gap: 90px;
+}
+.contents .box {
+  position: relative;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.contents .box::before {
+  content: url("../images/quote.svg");
+  width: 36px;
+  display: block;
+  position: absolute;
+  top: -18px;
+  left: -48px;
+  transform: scaleY(-1);
+}
+.contents .box:after {
+  content: url("../images/quote.svg");
+  width: 36px;
+  display: block;
+  position: absolute;
+  transform: scaleX(-1);
+  right: 0;
+}
+.contents .box h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+.contents .click {
+  width: 70px;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+.contents .pics {
+  width: 300px;
+}
+
+.resume_Container {
+  padding: 120px 0;
+  text-align: center;
+}
+.resume_Container img {
+  width: 700px;
+}
+
+.logo_Container {
+  padding-bottom: 150px;
+}
+.logo_Container .boxItems {
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+}
+
+div h2 {
+  color: gold;
+}
+
+.contents {
+  position: relative;
+}
+.contents .frames {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.contents .btn {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  transition: 0.4s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+.contents .btn i {
+  margin: 0 15px;
+}
+.contents .btn:hover {
+  width: 200px;
+}
+
+.pageFooter {
+  border-top: 1px solid #e5e7eb;
+  color: #909090;
+}
+.pageFooter h3 {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+.pageFooter .footerItems {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.pageFooter .footerItems li {
+  column-gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: solid 1px blue;
+  align-items: center;
+}
+.pageFooter .footerItems li a {
+  display: block;
+}
+.pageFooter .footerItems li img {
+  width: 25px;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=common.css.map */
