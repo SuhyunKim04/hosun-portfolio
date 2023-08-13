@@ -280,6 +280,36 @@ body {
 
 .omakase {
   margin: 50px 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.omakase video {
+  width: 937px;
+}
+.omakase .date_choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.omakase .date_choose img {
+  width: 500px;
+}
+.omakase .omakase_reserv, .omakase .omakase_food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 937px;
+  width: 942px;
+  background-color: #000;
+}
+.omakase .omakase_reserv img, .omakase .omakase_food img {
+  width: 468px;
+}
+.omakase .back {
+  background-color: #000;
+  height: 350px;
 }
 
 .contents {

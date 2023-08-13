@@ -52,6 +52,35 @@
     margin: 50px 0 150px;
 }
 
+// .back_color{
+//     background-color: #000;
+// }
 .omakase{
     margin: 50px 0 150px;
+    @include flex;
+    flex-direction: column;
+    
+        video{
+            width: 937px;
+        }
+    
+    .date_choose{
+        @include flex;
+        img{
+            width: 500px;
+        }
+    }
+    .omakase_reserv, .omakase_food{
+        @include flex;
+        max-width: 937px;
+        width: 942px;
+        background-color: #000;
+        img{
+            width: 468px;
+        }
+    }
+    .back{
+        background-color: #000;
+        height: 350px;
+    }
 }
