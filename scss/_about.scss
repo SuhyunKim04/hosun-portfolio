@@ -56,11 +56,33 @@
 
 .logo_Container{
     padding-bottom: 150px;
+    font-size: 12px;
+    color: #b5b5b5;
+    h2{
+        color: #b5b5b5;
+    }
+    .items{
+
+        .singleItem{
+            text-align: center;
+            margin-bottom: 70px;
+            img{
+                height: 80px;
+            }
+        }
+    }
 
     
     .boxItems{
+        div{
+            @include flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        img{
+            height:80px;
+        }
         display: flex;
-        height:80px;
         justify-content:space-evenly;
 
          

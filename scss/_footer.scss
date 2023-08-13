@@ -1,21 +1,21 @@
 .pageFooter{
     border-top: 1px solid #e5e7eb;
+    margin-bottom: 20px;
     color: #909090;
     h3{
+        font-size: 24px;
         text-align: center;
         margin: 40px 0 20px;
     }
 
     .footerItems{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         display: flex;
-        justify-content: space-between;
-        font-size: 12px;
+        justify-content: space-evenly;
+        font-size: 13px;
         li{
             column-gap: 10px;
             @include flex;
-            outline: solid 1px blue;
-            align-items: center;
             a{
                 display: block;
             }
@@ -24,5 +24,10 @@
                 vertical-align: middle;
             }
         }
+    }
+
+    .copy{
+        text-align: right;
+        font-size: 11.5px;
     }
 }

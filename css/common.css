@@ -83,7 +83,7 @@ fieldset {
   margin: 0 auto;
 }
 
-.around {
+.projects, .around {
   width: 100%;
   max-width: 1480px;
   padding: 0 140px;
@@ -191,15 +191,64 @@ body {
 
 .logo_Container {
   padding-bottom: 150px;
+  font-size: 12px;
+  color: #b5b5b5;
+}
+.logo_Container h2 {
+  color: #b5b5b5;
+}
+.logo_Container .items .singleItem {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.logo_Container .items .singleItem img {
+  height: 80px;
 }
 .logo_Container .boxItems {
   display: flex;
-  height: 80px;
   justify-content: space-evenly;
 }
+.logo_Container .boxItems div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.logo_Container .boxItems img {
+  height: 80px;
+}
 
-div h2 {
-  color: gold;
+.projects {
+  margin-top: 150px;
+}
+.projects .boxList {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 50px;
+}
+.projects .boxList img {
+  width: 400px;
+}
+.projects .boxList div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: #9b9a9a;
+}
+.projects .boxList div h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+}
+.projects .boxList div span {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.projects .boxList div p {
+  font-size: 14px;
 }
 
 .contents {
@@ -236,24 +285,24 @@ div h2 {
 
 .pageFooter {
   border-top: 1px solid #e5e7eb;
+  margin-bottom: 20px;
   color: #909090;
 }
 .pageFooter h3 {
+  font-size: 24px;
   text-align: center;
   margin: 40px 0 20px;
 }
 .pageFooter .footerItems {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   display: flex;
-  justify-content: space-between;
-  font-size: 12px;
+  justify-content: space-evenly;
+  font-size: 13px;
 }
 .pageFooter .footerItems li {
   column-gap: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  outline: solid 1px blue;
   align-items: center;
 }
 .pageFooter .footerItems li a {
@@ -262,6 +311,10 @@ div h2 {
 .pageFooter .footerItems li img {
   width: 25px;
   vertical-align: middle;
+}
+.pageFooter .copy {
+  text-align: right;
+  font-size: 11.5px;
 }
 
 /*# sourceMappingURL=common.css.map */

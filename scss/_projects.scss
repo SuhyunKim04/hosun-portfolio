@@ -1,5 +1,29 @@
-div{
-    h2{
-        color: gold;
+.projects{
+    @extend %body;
+    margin-top: 150px;
+    .boxList{
+        @include flex($a:flex-start);
+        column-gap: 50px;
+        img{
+            width: 400px;
+        }
+
+        div{
+            @include flex;
+            flex-direction: column;
+            color: #9b9a9a;
+            h2{
+                margin-bottom: 10px;
+                font-size: 16px;
+                color: #000;
+            }
+            span{
+                margin-bottom: 24px;
+                font-size: 14px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
     }
 }
