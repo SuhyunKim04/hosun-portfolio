@@ -270,11 +270,16 @@ body {
   padding-bottom: 150px;
 }
 
-.igloo img:nth-child(1) {
-  margin-top: 50px;
+.igloo {
+  margin: 50px 0 150px;
 }
-.igloo img:nth-child(3) {
-  padding-bottom: 150px;
+
+.jason {
+  margin: 50px 0 150px;
+}
+
+.omakase {
+  margin: 50px 0 150px;
 }
 
 .contents {
