@@ -1,11 +1,13 @@
-.projects{
+.around{
     @extend %body;
+}
+.projects{
     margin-top: 150px;
     .boxList{
         @include flex($a:flex-start);
         column-gap: 50px;
         img{
-            width: 400px;
+            width: 540px;
         }
 
         div{
@@ -13,17 +15,31 @@
             flex-direction: column;
             color: #9b9a9a;
             h2{
-                margin-bottom: 10px;
-                font-size: 16px;
+                margin-bottom: 12px;
+                font-size: 18px;
                 color: #000;
+                font-weight: 500;
             }
             span{
-                margin-bottom: 24px;
+                margin-bottom: 28px;
                 font-size: 14px;
             }
             p{
                 font-size: 14px;
+                line-height: 1.5;
             }
         }
+    }
+
+    .odd{
+        margin-top: 140px;
+        img{
+            order:2;
+        }
+    }
+
+    .even{
+        margin-top: 140px;
+        padding-bottom: 150px;
     }
 }

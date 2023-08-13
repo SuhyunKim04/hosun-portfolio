@@ -2,9 +2,9 @@
     position: fixed;
     left:0;top:0;right:0;
 }
+
 .pageHeader{
     padding: 16px 0;
-    
     color: #fff;
     background-color: rgba(0,0,0,0.4);
     
@@ -35,4 +35,8 @@
             
         }
     }
+}
+.line{
+    background-color: transparent;
+    color: #939292;
 }

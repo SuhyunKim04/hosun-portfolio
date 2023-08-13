@@ -83,7 +83,7 @@ fieldset {
   margin: 0 auto;
 }
 
-.projects, .around {
+.around {
   width: 100%;
   max-width: 1480px;
   padding: 0 140px;
@@ -128,6 +128,11 @@ body {
 }
 .pageHeader .headerContainer .gnb ul a {
   padding: 0 0 0 31px;
+}
+
+.line {
+  background-color: transparent;
+  color: #939292;
 }
 
 .visual {
@@ -196,6 +201,8 @@ body {
 }
 .logo_Container h2 {
   color: #b5b5b5;
+  font-size: 18px;
+  font-weight: 600;
 }
 .logo_Container .items .singleItem {
   text-align: center;
@@ -229,7 +236,7 @@ body {
   column-gap: 50px;
 }
 .projects .boxList img {
-  width: 400px;
+  width: 540px;
 }
 .projects .boxList div {
   display: flex;
@@ -239,16 +246,35 @@ body {
   color: #9b9a9a;
 }
 .projects .boxList div h2 {
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 12px;
+  font-size: 18px;
   color: #000;
+  font-weight: 500;
 }
 .projects .boxList div span {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   font-size: 14px;
 }
 .projects .boxList div p {
   font-size: 14px;
+  line-height: 1.5;
+}
+.projects .odd {
+  margin-top: 140px;
+}
+.projects .odd img {
+  order: 2;
+}
+.projects .even {
+  margin-top: 140px;
+  padding-bottom: 150px;
+}
+
+.igloo img:nth-child(1) {
+  margin-top: 50px;
+}
+.igloo img:nth-child(3) {
+  padding-bottom: 150px;
 }
 
 .contents {
