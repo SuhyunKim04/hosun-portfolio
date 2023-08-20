@@ -14,7 +14,7 @@
         justify-content: space-evenly;
         font-size: 13px;
         li{
-            column-gap: 10px;
+            column-gap: 4px;
             @include flex;
             a{
                 display: block;

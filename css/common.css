@@ -197,10 +197,9 @@ body {
 .logo_Container {
   padding-bottom: 150px;
   font-size: 12px;
-  color: #b5b5b5;
+  color: #7a7a7a;
 }
 .logo_Container h2 {
-  color: #b5b5b5;
   font-size: 18px;
   font-weight: 600;
 }
@@ -243,7 +242,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  color: #9b9a9a;
+  color: #7a7a7a;
 }
 .projects .boxList div h2 {
   margin-bottom: 12px;
@@ -286,7 +285,8 @@ body {
   flex-direction: column;
 }
 .omakase video {
-  width: 937px;
+  width: 100%;
+  max-width: 1200px;
 }
 .omakase .date_choose {
   display: flex;
@@ -300,8 +300,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 937px;
-  width: 942px;
+  max-width: 1200px;
+  width: 100%;
   background-color: #000;
 }
 .omakase .omakase_reserv img, .omakase .omakase_food img {
@@ -361,7 +361,7 @@ body {
   font-size: 13px;
 }
 .pageFooter .footerItems li {
-  column-gap: 10px;
+  column-gap: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -13,7 +13,7 @@
         div{
             @include flex;
             flex-direction: column;
-            color: #9b9a9a;
+            color: #7a7a7a;
             h2{
                 margin-bottom: 12px;
                 font-size: 18px;
@@ -61,7 +61,8 @@
     flex-direction: column;
     
         video{
-            width: 937px;
+            width: 100%;
+            max-width: 1200px;
         }
     
     .date_choose{
@@ -72,8 +73,8 @@
     }
     .omakase_reserv, .omakase_food{
         @include flex;
-        max-width: 937px;
-        width: 942px;
+        max-width: 1200px;
+        width: 100%;
         background-color: #000;
         img{
             width: 468px;
