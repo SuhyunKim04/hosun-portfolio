@@ -153,6 +153,10 @@ body {
   position: relative;
   font-size: 15px;
   line-height: 1.8;
+  display: none;
+}
+.contents .box.open {
+  display: flex;
 }
 .contents .box::before {
   content: url("../images/quote.svg");
