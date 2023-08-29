@@ -3,51 +3,46 @@
 }
 .contents{
     @include flex;
-    margin-top: 40px;
-    column-gap: 90px;
+    margin: 40px 30px 0;
+    column-gap: 12px;
+    position: relative;
 
     .box{
-        position: relative;
-        font-size: 15px;
-        line-height: 1.8;
-        display: none;
-
-        &.open{
-            display: flex;
-        }
-        &::before{
-            content: url('../images/quote.svg');
-            // background: url('../images/quote.svg') no-repeat center center/cover;
-            width: 36px;
-            display: block;
+        &:before{
+            content:'';
+            background-image: url($imgUrl + 'quote.svg');
+            width: 38px;
+            height: 30px;
             position: absolute;
-            top:-18px;
-            left:-48px;
-            transform: scaleY(-1);
+            top:0;
         }
-        &:after{
-            content: url('../images/quote.svg');
-            width:36px;
-            display: block;
-            position: absolute;
-            transform: scaleX(-1);
-            right: 0;
-        }
-        h1{
-            font-family: 'Abril Fatface', cursive;
+        opacity: 0;
+        h2{
             font-size: 38px;
-            margin-bottom: 16px;
+            font-weight: 600;
+            font-family: 'Abril Fatface', cursive;
+            margin-bottom: 28px;
+        }
+        p{
+            line-height: 26px;
+        }
+        &.open{
+            opacity: 1;
         }
     }
-
     .click{
-        width: 70px;
-        position: absolute;
-        right: 100px;bottom:0;
+        opacity: 1;
+        transition: all 0.2s;
+        width: 100%;
+        max-width: 67px;
+        &.close{
+            opacity: 0;
+        }
     }
 
     .pics{
-        width: 300px;
+        flex-basis: 100px;
+        flex-shrink: 0;
     }
 }
 

@@ -6,8 +6,12 @@
     .boxList{
         @include flex($a:flex-start);
         column-gap: 50px;
-        img{
-            width: 540px;
+        .photo{
+            flex-basis: 420px;
+            flex-shrink:0;
+            img{
+                width: 540px;
+            }
         }
 
         div{
@@ -62,7 +66,6 @@
     
         video{
             width: 100%;
-            max-width: 1200px;
         }
     
     .date_choose{
@@ -73,7 +76,6 @@
     }
     .omakase_reserv, .omakase_food{
         @include flex;
-        max-width: 1200px;
         width: 100%;
         background-color: #000;
         img{
