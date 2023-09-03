@@ -126,3 +126,17 @@
         opacity: 1;
     }
 }
+
+@include media($tablet){
+    .projects{
+        .boxList{
+            column-gap: 40px;
+            .photo{
+                img{
+                    width: 400px;
+                }
+            }
+        }
+    }
+
+}

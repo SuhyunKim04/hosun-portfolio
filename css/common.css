@@ -237,6 +237,40 @@ body {
   height: 80px;
 }
 
+@media all and (max-width: 980px) {
+  .around {
+    width: 100%;
+    max-width: 980px;
+    padding: 40px;
+    margin: 0 auto;
+  }
+  .contents .click {
+    max-width: 48px;
+  }
+  .contents .box:before {
+    width: 28px;
+    height: 22px;
+    left: -36px;
+  }
+  .contents .box:after {
+    width: 28px;
+    height: 22px;
+    right: 180px;
+  }
+  .contents .box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .resume_Container img {
+    width: 600px;
+  }
+  .logo_Container h2 {
+    font-size: 16px;
+  }
+  .logo_Container .items .singleItem {
+    margin-bottom: 50px;
+  }
+}
 .around {
   position: relative;
 }
@@ -362,6 +396,14 @@ body {
   opacity: 1;
 }
 
+@media all and (max-width: 980px) {
+  .projects .boxList {
+    column-gap: 40px;
+  }
+  .projects .boxList .photo img {
+    width: 400px;
+  }
+}
 .contents {
   position: relative;
 }
