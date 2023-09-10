@@ -20,18 +20,18 @@ const height = () =>{
     let doc = document.documentElement;
     window.addEventListener('scroll',() =>{
        
-        if(window.pageYOffset > 500) {
+        if(window.scrollY > 500) {
             btn.classList.add('visible')
         }else{
             btn.classList.remove('visible')
         }
 
-        btn.addEventListener('click', (e) =>{
-            console.log('test')
-            e.preventDefault();
-            doc.scrollTop = 0;
+        // btn.addEventListener('click', (e) =>{
+        //     console.log('test')
+        //     e.preventDefault();
+        //     doc.scrollTop = 0;
             
-        })
+        // })
     })
 }
     // var btn = document.querySelector(".top");

@@ -5,15 +5,9 @@
 	// border:0 solid #e5e7eb;
 	box-sizing:border-box;
 }
- 
 
-body, h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ol,ul,li,fieldset{
-	margin: 0;
-	padding: 0;
-}
-
-html, body{
-	width:100%; 
+html, body {
+	scroll-behavior: smooth;
 }
 
 body {
