@@ -25,24 +25,8 @@ const height = () =>{
         }else{
             btn.classList.remove('visible')
         }
-
-        // btn.addEventListener('click', (e) =>{
-        //     console.log('test')
-        //     e.preventDefault();
-        //     doc.scrollTop = 0;
-            
-        // })
     })
 }
-    // var btn = document.querySelector(".top");
-    // doc = document.documentElement,
-    // // offset,
-    // // scollPos,
-    // // docHeight;
-
-    // docHeight = doc.offsetHeight;
-    // scrollPos = doc.scrollTop;
-    // console.log(scrollPos);
 
 
 height();
