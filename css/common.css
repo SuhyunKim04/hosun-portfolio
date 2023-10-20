@@ -130,11 +130,36 @@ body {
   color: #939292;
 }
 
-.visual {
+.contents {
+  position: relative;
+}
+.contents .frames {
+  overflow: hidden;
+  width: 100%;
   height: 100vh;
 }
-.visual img {
-  height: 100vh;
+.contents .btn {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  transition: 0.4s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+.contents .btn i {
+  margin: 0 15px;
+}
+.contents .btn:hover {
+  width: 200px;
 }
 
 .contents {
@@ -392,38 +417,6 @@ h2 {
     width: 400px;
   }
 }
-.contents {
-  position: relative;
-}
-.contents .frames {
-  overflow: hidden;
-  width: 100%;
-  height: 100vh;
-}
-.contents .btn {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  background-color: #000;
-  color: #fff;
-  overflow: hidden;
-  border-radius: 10px;
-  font-size: 20px;
-  width: 50px;
-  height: 50px;
-  transition: 0.4s;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  white-space: nowrap;
-}
-.contents .btn i {
-  margin: 0 15px;
-}
-.contents .btn:hover {
-  width: 200px;
-}
-
 .pageFooter {
   border-top: 1px solid #e5e7eb;
   margin-bottom: 20px;
