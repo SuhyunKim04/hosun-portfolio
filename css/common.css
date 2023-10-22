@@ -201,10 +201,7 @@ body {
 
 .resume_Container {
   padding: 120px 0;
-  text-align: center;
-}
-.resume_Container img {
-  width: 700px;
+  color: #7a7a7a;
 }
 
 h2 {
