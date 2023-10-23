@@ -8,28 +8,7 @@
     position: relative;
 
     .box{
-        // &:before{
-        //     content:'';
-        //     background-image: url($imgUrl + 'quote.svg');
-        //     width: 38px;
-        //     height: 30px;
-        //     position: absolute;
-        //     top:20px;
-        //     left:-50px;
-        //     transform:scaleY(-1);
-        //     // transform: rotate(45deg);   
-        //     // transform: translateY(180px);
-        // }
 
-        // &:after{
-        //     content:'';
-        //     background-image: url($imgUrl + 'quote.svg');
-        //     width: 38px;
-        //     height: 30px;
-        //     position: absolute;
-        //     right: 200px;
-        //     transform: scaleX(-1);
-        // }
         opacity: 0;
         h2{
             font-size: 38px;
