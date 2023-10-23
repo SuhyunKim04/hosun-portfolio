@@ -294,6 +294,30 @@ h2 {
   margin: 120px 0;
   grid-template-columns: repeat(2, 1fr);
 }
+.projects .boxList .box_a {
+  order: 1;
+}
+.projects .boxList .box_b {
+  order: 2;
+}
+.projects .boxList .box_c {
+  order: 4;
+}
+.projects .boxList .box_d {
+  order: 3;
+}
+.projects .boxList .box_e {
+  order: 5;
+}
+.projects .boxList .box_f {
+  order: 6;
+}
+.projects .boxList .box_g {
+  order: 8;
+}
+.projects .boxList .box_h {
+  order: 7;
+}
 .projects .boxList div {
   color: #7a7a7a;
   flex-basis: 600px;

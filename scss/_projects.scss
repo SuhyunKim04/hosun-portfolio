@@ -12,6 +12,37 @@
         margin: 120px 0;
         grid-template-columns: repeat(2,1fr);
 
+        .box_a{
+            order:1;
+        }
+
+        .box_b{
+            order:2;
+        }
+
+        .box_c{
+            order:4;
+        }
+
+        .box_d{
+            order:3;
+        }
+
+        .box_e{
+            order:5;
+        }
+
+        .box_f{
+            order:6
+        }
+
+        .box_g{
+            order:8;
+        }
+
+        .box_h{
+            order:7;
+        }
 
         div{
             color: #7a7a7a;
