@@ -5,8 +5,7 @@
 
 .pageHeader{
     padding: 16px 0;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    color: #939292;
     
     .inner{
         @extend %header;
@@ -23,10 +22,10 @@
         .gnb{
             ul{
                 @include flex;
+                font-size: 18px;
 
                 li{
                     font-weight: 600;
-                    font-size: 15px;
                 }
                 a{
                     padding: 0  0 0 31px;
@@ -35,8 +34,4 @@
             
         }
     }
-}
-.line{
-    background-color: transparent;
-    color: #939292;
 }

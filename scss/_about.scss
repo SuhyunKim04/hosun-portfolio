@@ -63,6 +63,13 @@
 .resume_Container{
     padding:120px 0;
     color: #7a7a7a;
+
+    img{
+        width: 600px;
+        transform: translateX(-50%);
+        position: relative;
+        left: 50%;
+    }
 }
 h2{
     font-size: 18px;

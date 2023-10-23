@@ -7,15 +7,17 @@
 .projects{
     margin-top: 150px;
     .boxList{
-        @include flex($a:flex-start);
+        display: grid;
         column-gap: 50px;
         margin: 120px 0;
+        grid-template-columns: repeat(2,1fr);
 
 
         div{
             color: #7a7a7a;
             flex-basis: 600px;
             text-align: center;
+            order:2;
            
             h2{
                 margin-bottom: 12px;
@@ -136,4 +138,17 @@
         }
     }
 
+}
+
+@include media($mobile) {
+    .projects{
+        margin-top: -50px;
+        .boxList{
+            display: block;
+
+            .photo{
+                margin-top: 30px;
+            }
+        }
+    }
 }

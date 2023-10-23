@@ -100,8 +100,7 @@ body {
 
 .pageHeader {
   padding: 16px 0;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
+  color: #939292;
 }
 .pageHeader .headerContainer {
   display: flex;
@@ -116,18 +115,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
 }
 .pageHeader .headerContainer .gnb ul li {
   font-weight: 600;
-  font-size: 15px;
 }
 .pageHeader .headerContainer .gnb ul a {
   padding: 0 0 0 31px;
-}
-
-.line {
-  background-color: transparent;
-  color: #939292;
 }
 
 .contents {
@@ -202,6 +196,12 @@ body {
 .resume_Container {
   padding: 120px 0;
   color: #7a7a7a;
+}
+.resume_Container img {
+  width: 600px;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
 }
 
 h2 {
@@ -289,16 +289,16 @@ h2 {
   margin-top: 150px;
 }
 .projects .boxList {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
   column-gap: 50px;
   margin: 120px 0;
+  grid-template-columns: repeat(2, 1fr);
 }
 .projects .boxList div {
   color: #7a7a7a;
   flex-basis: 600px;
   text-align: center;
+  order: 2;
 }
 .projects .boxList div h2 {
   margin-bottom: 12px;
@@ -412,6 +412,17 @@ h2 {
   }
   .projects .boxList .photo img {
     width: 400px;
+  }
+}
+@media all and (max-width: 640px) {
+  .projects {
+    margin-top: -50px;
+  }
+  .projects .boxList {
+    display: block;
+  }
+  .projects .boxList .photo {
+    margin-top: 30px;
   }
 }
 .pageFooter {
