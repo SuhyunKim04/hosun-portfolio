@@ -34,3 +34,14 @@
 .street_cats{
     margin: 150px 0;
 }
+
+@include media($mobile){
+    .container{
+        display: block;
+        text-align: center;
+    }
+
+    .works{
+        display: block;
+    }
+}

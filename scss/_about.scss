@@ -8,7 +8,6 @@
     position: relative;
 
     .box{
-
         opacity: 0;
         h2{
             font-size: 38px;
@@ -146,6 +145,26 @@ h2{
 
         .pics{
             display: none;
+        }
+    }
+}
+
+@include media($phone){
+    .logo_Container{
+        padding-bottom: 70px;
+        .items{
+            margin-top:30px;
+            .singleItem{
+                margin-bottom: 30px;
+            }
+        }
+
+        .boxItems{
+            display: block;
+
+            div{
+                margin-bottom: 14px;
+            }
         }
     }
 }

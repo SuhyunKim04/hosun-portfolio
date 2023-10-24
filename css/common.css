@@ -191,9 +191,16 @@ body {
   .pageHeader .headerContainer .gnb .close_menu {
     position: absolute;
     right: 0;
+    cursor: pointer;
   }
   .pageHeader .headerContainer .mBtn {
     display: block;
+    cursor: pointer;
+  }
+}
+@media all and (max-width: 375px) {
+  .pageHeader .headerContainer .gnb {
+    width: 70%;
   }
 }
 .contents {
@@ -351,6 +358,23 @@ h2 {
   }
   .contents .pics {
     display: none;
+  }
+}
+@media all and (max-width: 375px) {
+  .logo_Container {
+    padding-bottom: 70px;
+  }
+  .logo_Container .items {
+    margin-top: 30px;
+  }
+  .logo_Container .items .singleItem {
+    margin-bottom: 30px;
+  }
+  .logo_Container .boxItems {
+    display: block;
+  }
+  .logo_Container .boxItems div {
+    margin-bottom: 14px;
   }
 }
 .around {
@@ -542,6 +566,15 @@ h2 {
   margin: 150px 0;
 }
 
+@media all and (max-width: 640px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .works {
+    display: block;
+  }
+}
 .dream_palette {
   margin: 50px 0 150px;
 }
@@ -589,6 +622,7 @@ h2 {
   }
   .pageFooter .footerItems li {
     justify-content: stretch;
+    margin-bottom: 10px;
   }
 }
 

@@ -91,10 +91,23 @@
                 .close_menu{
                     position: absolute;
                     right: 0;
+                    cursor: pointer;
                 }
             }
             .mBtn{
                 display: block;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@include media($phone){
+    .pageHeader{
+        .headerContainer{
+            .gnb{
+                width: 70%;
             }
         }
     }
