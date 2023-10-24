@@ -5,7 +5,7 @@
 
 .works{
     @include flex;
-    margin: 150px 0;
+    margin: 50px 0;
     color: #7a7a7a;
     .box{
         text-align: center;
@@ -21,7 +21,7 @@
 }
 
 .fit4less{
-    margin: 150px 0;
+    margin: 50px 0;
     video{
         width: 100%;
     }
@@ -32,7 +32,7 @@
 }
 
 .street_cats{
-    margin: 150px 0;
+    margin: 50px 0;
 }
 
 @include media($mobile){

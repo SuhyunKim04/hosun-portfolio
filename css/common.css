@@ -460,7 +460,7 @@ h2 {
   align-items: center;
 }
 .omakase .date_choose img {
-  width: 500px;
+  width: 420px;
 }
 .omakase .omakase_reserv, .omakase .omakase_food {
   display: flex;
@@ -470,7 +470,7 @@ h2 {
   background-color: #000;
 }
 .omakase .omakase_reserv img, .omakase .omakase_food img {
-  width: 468px;
+  width: 420px;
 }
 .omakase .back {
   background-color: #000;
@@ -486,10 +486,10 @@ h2 {
     width: 400px;
   }
   .omakase .date_choose img {
-    width: 430px;
+    width: 330px;
   }
   .omakase .omakase_reserv img, .omakase .omakase_food img {
-    width: 430px;
+    width: 330px;
   }
   .omakase .back {
     height: 300px;
@@ -506,10 +506,10 @@ h2 {
     margin-top: 30px;
   }
   .omakase .date_choose img {
-    width: 260px;
+    width: 140px;
   }
   .omakase .omakase_reserv img, .omakase .omakase_food img {
-    width: 260px;
+    width: 140px;
   }
   .omakase .back {
     height: 190px;
@@ -520,10 +520,10 @@ h2 {
     margin-bottom: 10px;
   }
   .omakase .date_choose img {
-    width: 130px;
+    width: 110px;
   }
   .omakase .omakase_reserv img, .omakase .omakase_food img {
-    width: 130px;
+    width: 110px;
   }
   .omakase .back {
     height: 100px;
@@ -538,7 +538,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 150px 0;
+  margin: 50px 0;
   color: #7a7a7a;
 }
 .works .box {
@@ -553,7 +553,7 @@ h2 {
 }
 
 .fit4less {
-  margin: 150px 0;
+  margin: 50px 0;
 }
 .fit4less video {
   width: 100%;
@@ -563,7 +563,7 @@ h2 {
 }
 
 .street_cats {
-  margin: 150px 0;
+  margin: 50px 0;
 }
 
 @media all and (max-width: 640px) {
@@ -616,6 +616,15 @@ h2 {
   font-size: 11.5px;
 }
 
+@media all and (max-width: 640px) {
+  .pageFooter .footerItems {
+    display: block;
+  }
+  .pageFooter .footerItems li {
+    justify-content: stretch;
+    margin-bottom: 10px;
+  }
+}
 @media all and (max-width: 375px) {
   .pageFooter .footerItems {
     display: block;

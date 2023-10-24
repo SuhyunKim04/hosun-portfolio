@@ -89,7 +89,7 @@
     .date_choose{
         @include flex;
         img{
-            width: 500px;
+            width: 420px;
         }
     }
     .omakase_reserv, .omakase_food{
@@ -97,7 +97,7 @@
         width: 100%;
         background-color: #000;
         img{
-            width: 468px;
+            width: 420px;
         }
     }
     .back{
@@ -122,12 +122,12 @@
     .omakase{
         .date_choose{
             img{
-                width: 430px;
+                width: 330px;
             }
         }
         .omakase_reserv, .omakase_food{
             img{
-                width: 430px;
+                width: 330px;
             }
         }
         .back{
@@ -152,12 +152,12 @@
     .omakase{
         .date_choose{
             img{
-                width: 260px;
+                width: 140px;
             }
         }
         .omakase_reserv, .omakase_food{
             img{
-                width: 260px;
+                width: 140px;
             }
         }
         .back{
@@ -172,12 +172,12 @@
         margin-bottom:10px;
         .date_choose{
             img{
-                width: 130px;
+                width: 110px;
             }
         }
         .omakase_reserv, .omakase_food{
             img{
-                width: 130px;
+                width: 110px;
             }
         }
         .back{

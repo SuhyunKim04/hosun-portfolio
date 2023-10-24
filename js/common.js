@@ -26,6 +26,8 @@ const height = () =>{
             btn.classList.remove('visible')
         }
     })
+
+    return false
 }
 
 
